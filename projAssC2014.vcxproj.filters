@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Exercices">
+      <UniqueIdentifier>{9b7d48b8-7d6c-4cc6-91d6-d2c224eec751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercices\Ex2">
+      <UniqueIdentifier>{00b26d53-0176-4279-bd68-be37e9c14827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercices\Ex1">
+      <UniqueIdentifier>{cf35f9ab-3634-4cb6-ad7f-5a49acd366d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercices\Ex3">
+      <UniqueIdentifier>{0d941ee4-83bb-4554-b0c5-a980b9bd0649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercices\Ex4">
+      <UniqueIdentifier>{b85511a2-7c46-4ebe-a34c-f130f701d947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercices\Ex5">
+      <UniqueIdentifier>{df17b114-ab16-426c-a5ed-763d102aeb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exemples">
+      <UniqueIdentifier>{1bd0e083-bb17-43f9-9f71-dd01d30b0584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ex1\mainAss.cpp">
+      <Filter>Source Files\Exercices\Ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex2\exe2.cpp">
+      <Filter>Source Files\Exercices\Ex2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex3\ex3.cpp">
+      <Filter>Source Files\Exercices\Ex3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex4\ex4.cpp">
+      <Filter>Source Files\Exercices\Ex4</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex5\ex5.cpp">
+      <Filter>Source Files\Exercices\Ex5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Ex1\fact.asm">
+      <Filter>Source Files\Exercices\Ex1</Filter>
+    </MASM>
+    <MASM Include="Exemples\examples.asm">
+      <Filter>Source Files\Exemples</Filter>
+    </MASM>
+    <MASM Include="Exemples\somme.asm">
+      <Filter>Source Files\Exemples</Filter>
+    </MASM>
+    <MASM Include="Ex2\ex2.asm">
+      <Filter>Source Files\Exercices\Ex2</Filter>
+    </MASM>
+    <MASM Include="Ex2\ex2_corr.asm">
+      <Filter>Source Files\Exercices\Ex2</Filter>
+    </MASM>
+    <MASM Include="Ex3\exe3.asm">
+      <Filter>Source Files\Exercices\Ex3</Filter>
+    </MASM>
+    <MASM Include="Ex4\exe4.asm">
+      <Filter>Source Files\Exercices\Ex4</Filter>
+    </MASM>
+    <MASM Include="Ex5\exe5.asm">
+      <Filter>Source Files\Exercices\Ex5</Filter>
+    </MASM>
+    <MASM Include="Ex5\exe5_simplifie.asm">
+      <Filter>Source Files\Exercices\Ex5</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
